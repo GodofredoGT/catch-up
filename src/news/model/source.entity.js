@@ -1,12 +1,12 @@
 export class Source{
-    constructor(
+    constructor({
         id='',
         name ='',
         description='',
         url='',
         category='',
         language='',
-        country=''
+        country=''}
     ) {
         this.id=id;
         this.name=name;
