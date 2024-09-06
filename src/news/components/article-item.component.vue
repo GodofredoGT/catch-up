@@ -1,11 +1,8 @@
 <script>
 import {Article} from "../model/article.entity.js";
-import PvCard from "../../main.js";
-import PvAvatar from "../../main.js";
 
 export default {
   name: "article-item",
-  components: { PvCard},
   props:{
     article:{type: Article, required:true}
   },
