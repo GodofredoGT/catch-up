@@ -1,6 +1,7 @@
 import {Source} from "./source.entity.js";
 
 export class Article{
+
     constructor(
         title='',
         description='',

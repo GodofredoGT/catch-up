@@ -7,7 +7,7 @@ const http = axios.create({
 });
 const NEWS_API_KEY=import.meta.env.VITE_NEWS_API_KEY;
 
-export class NesApiService{
+export class NewsApiService{
     apiKey = NEWS_API_KEY;
     logoAPI=new LogoApiService();
     //solo se programa la peticion

@@ -9,7 +9,7 @@ export default {
   props: {visible: Boolean},
   data(){
     return{
-      source:[],
+      sources:[],
       errors:[],
       newsApi:new NewsApiService()
     }
